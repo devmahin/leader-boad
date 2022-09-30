@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #562EFF;
+    display: flex;
+    justify-content: center;
+}
+#logo{
+    width: 40px;
+}
+#user{
+    width: 51px;
+}
+#main{
+    display: flex;
+    justify-content: space-between;
+    width: 870px;
+
+}
+#header-left{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+#header-right{
+    display: flex;
+}
+#navs{
+    display: flex;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    
+    
+}
+
+/* section */
+
+#top-player{
+    background-color: rgb(206, 185, 185);
+    width: 870px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 25px;
+    
+}
+#top-tittle{
+    padding: 25px;
+}
+.players{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+   
+}
+.players-img{
+   width: 56px;
+   margin-right: 10px;
+
+}
+#player-main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
